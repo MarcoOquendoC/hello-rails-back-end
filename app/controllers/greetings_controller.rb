@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
-  def index; end
-
-  def show; end
+  def random
+    render json: Greeting.random_greeting.message
+  end
 end
