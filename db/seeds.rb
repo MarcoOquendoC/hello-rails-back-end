@@ -21,4 +21,5 @@ greetings = Greeting.create([
   { message: "Good to see you" },
   { message: "Great to see you" },
   { message: "Nice to see you" },
+  { message: "Nice to not see you" },
 ]);
